@@ -27,7 +27,7 @@ class Rat(Sprite):
             self.x -=55
         
         
-for i in range(99):
+for i in range(9):
     window.create_sprite(Rat)
 
 class Fireball(Sprite):
