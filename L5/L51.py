@@ -9,7 +9,7 @@ class Player(Sprite):
     def on_create(self):
         self.image='img/cat.png'
         self.x=50
-        self.y=50
+        self.y=5
     
     def on_update(self, dt):
 
@@ -31,7 +31,7 @@ class Gem(Sprite):
         self.image = 'img/gem_shiny04.png'
         self.goto_random_position()
         self.y = 700
-        self.scale = 0.3
+        self.scale = 0.4
     
     def on_update(self, dt):
         self.y -= 100
